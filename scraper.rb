@@ -23,6 +23,22 @@ class Yad2Scraper
         i.lstrip
     end
 
+    def title_format(str)
+        str.gsub("\"", "")
+    end
+
+    def date_format(str)
+        if str.include?("עודכן היום")
+            i = str.gsub("עודכן היום", "")
+            i.lstrip
+        elsif str.include?("עודכן ב")
+            i = str.gsub("עודכן ב", "")
+            i.lstrip
+        else
+            Time.now.strftime('%d/%m/%Y')
+        end
+    end
+
     def scraper
         page = HTTParty.get(@url, {
             headers: { "User-Agent": @user_agent }
@@ -39,16 +55,20 @@ class Yad2Scraper
             rooms = item.css('span.val')[0].text.strip
             floor = item.css('span.val')[1].text.strip
             size = item.css('span.val')[2].text.strip
+            created_at = item.css('span.date').text.strip
 
             listings_array.push({
                 id: id,
-                title: title,
+                title: title_format(title),
                 subtitle: subtitle_format(subtitle),
                 price: price_format(price),
                 rooms: rooms_format(rooms),
                 floor: floor.to_i,
-                size: size.to_i
+                size: size.to_i,
+                created_at: date_format(created_at)
             })
+
+            listings_array.sort_by { |hash| hash['created_at'].to_i }
         end
 
         listings_object = {
@@ -66,5 +86,4 @@ class Yad2Scraper
     end
 end
 
-scraper = Yad2Scraper.new
-scraper.start
+scraper = Yad2Scraper.new().start
