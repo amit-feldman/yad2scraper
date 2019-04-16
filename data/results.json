@@ -222,6 +222,16 @@
       "published_at": "03/04/2019"
     },
     {
+      "id": "0khvic",
+      "title": "אגמון 1",
+      "subtitle": "רמת אפעל, רמת גן",
+      "price": 4900,
+      "rooms": 3.5,
+      "floor": 3,
+      "size": 80,
+      "published_at": "17/04/2019"
+    },
+    {
       "id": "0wci9x",
       "title": "הראה 260",
       "subtitle": "אזור הבילויים, רמת גן",
@@ -329,16 +339,6 @@
       "rooms": 3,
       "floor": 2,
       "size": 82,
-      "published_at": "17/04/2019"
-    },
-    {
-      "id": "0khvic",
-      "title": "אגמון 1",
-      "subtitle": "רמת אפעל, רמת גן",
-      "price": 4900,
-      "rooms": 3.5,
-      "floor": 3,
-      "size": 80,
       "published_at": "17/04/2019"
     },
     {

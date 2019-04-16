@@ -76,7 +76,7 @@ class Yad2Scraper
             listings: listings_array
         }
 
-        File.open("listings.json", "w") do |file|
+        File.open("./data/results.json", "w") do |file|
             file.write(JSON.pretty_generate(listings_object))
         end
     end
