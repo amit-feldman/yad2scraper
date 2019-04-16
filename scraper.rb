@@ -55,7 +55,7 @@ class Yad2Scraper
             rooms = item.css('span.val')[0].text.strip
             floor = item.css('span.val')[1].text.strip
             size = item.css('span.val')[2].text.strip
-            created_at = item.css('span.date').text.strip
+            published_at = item.css('span.date').text.strip
 
             listings_array.push({
                 id: id,
@@ -65,10 +65,10 @@ class Yad2Scraper
                 rooms: rooms_format(rooms),
                 floor: floor.to_i,
                 size: size.to_i,
-                created_at: date_format(created_at)
+                published_at: date_format(published_at)
             })
 
-            listings_array.sort_by { |hash| hash['created_at'].to_i }
+            listings_array.sort_by { |hash| hash['published_at'].to_i }
         end
 
         listings_object = {
@@ -86,4 +86,4 @@ class Yad2Scraper
     end
 end
 
-scraper = Yad2Scraper.new().start
+scraper = Yad2Scraper.new.start

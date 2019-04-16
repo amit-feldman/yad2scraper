@@ -9,7 +9,7 @@
       "rooms": 4,
       "floor": 1,
       "size": 100,
-      "created_at": "17/04/2019"
+      "published_at": "17/04/2019"
     },
     {
       "id": "qdzrog",
@@ -19,7 +19,7 @@
       "rooms": 4,
       "floor": 2,
       "size": 90,
-      "created_at": "17/04/2019"
+      "published_at": "17/04/2019"
     },
     {
       "id": "zpwltb",
@@ -29,7 +29,7 @@
       "rooms": 3,
       "floor": 3,
       "size": 65,
-      "created_at": "16/04/2019"
+      "published_at": "16/04/2019"
     },
     {
       "id": "xp63yv",
@@ -39,7 +39,7 @@
       "rooms": 3,
       "floor": 0,
       "size": 53,
-      "created_at": "16/04/2019"
+      "published_at": "16/04/2019"
     },
     {
       "id": "esuju9",
@@ -49,7 +49,7 @@
       "rooms": 3.5,
       "floor": 4,
       "size": 85,
-      "created_at": "16/04/2019"
+      "published_at": "16/04/2019"
     },
     {
       "id": "36r5vk",
@@ -59,7 +59,7 @@
       "rooms": 3,
       "floor": 2,
       "size": 55,
-      "created_at": "16/04/2019"
+      "published_at": "16/04/2019"
     },
     {
       "id": "staj41",
@@ -69,7 +69,7 @@
       "rooms": 4,
       "floor": 7,
       "size": 130,
-      "created_at": "16/04/2019"
+      "published_at": "16/04/2019"
     },
     {
       "id": "zko5xe",
@@ -79,7 +79,7 @@
       "rooms": 4,
       "floor": 3,
       "size": 97,
-      "created_at": "15/04/2019"
+      "published_at": "15/04/2019"
     },
     {
       "id": "3c0do7",
@@ -89,7 +89,7 @@
       "rooms": 3.5,
       "floor": 3,
       "size": 110,
-      "created_at": "15/04/2019"
+      "published_at": "15/04/2019"
     },
     {
       "id": "24ehqb",
@@ -99,7 +99,7 @@
       "rooms": 4,
       "floor": 1,
       "size": 90,
-      "created_at": "15/04/2019"
+      "published_at": "15/04/2019"
     },
     {
       "id": "hhex2o",
@@ -109,7 +109,7 @@
       "rooms": 3,
       "floor": 2,
       "size": 80,
-      "created_at": "14/04/2019"
+      "published_at": "14/04/2019"
     },
     {
       "id": "2wg94k",
@@ -119,7 +119,7 @@
       "rooms": 3,
       "floor": 3,
       "size": 60,
-      "created_at": "14/04/2019"
+      "published_at": "14/04/2019"
     },
     {
       "id": "uc7me9",
@@ -129,7 +129,7 @@
       "rooms": 3,
       "floor": 0,
       "size": 70,
-      "created_at": "12/04/2019"
+      "published_at": "12/04/2019"
     },
     {
       "id": "q5aa20",
@@ -139,7 +139,7 @@
       "rooms": 4,
       "floor": 3,
       "size": 120,
-      "created_at": "12/04/2019"
+      "published_at": "12/04/2019"
     },
     {
       "id": "9naafm",
@@ -149,7 +149,7 @@
       "rooms": 3,
       "floor": 4,
       "size": 90,
-      "created_at": "11/04/2019"
+      "published_at": "11/04/2019"
     },
     {
       "id": "9jjmne",
@@ -159,7 +159,7 @@
       "rooms": 3,
       "floor": 2,
       "size": 70,
-      "created_at": "10/04/2019"
+      "published_at": "10/04/2019"
     },
     {
       "id": "lyg5lw",
@@ -169,7 +169,7 @@
       "rooms": 3,
       "floor": 1,
       "size": 70,
-      "created_at": "08/04/2019"
+      "published_at": "08/04/2019"
     },
     {
       "id": "haz50h",
@@ -179,7 +179,7 @@
       "rooms": 3,
       "floor": 3,
       "size": 60,
-      "created_at": "07/04/2019"
+      "published_at": "07/04/2019"
     },
     {
       "id": "nncap6",
@@ -189,7 +189,7 @@
       "rooms": 3.5,
       "floor": 1,
       "size": 90,
-      "created_at": "06/04/2019"
+      "published_at": "06/04/2019"
     },
     {
       "id": "ck7dn1",
@@ -199,7 +199,7 @@
       "rooms": 4,
       "floor": 2,
       "size": 100,
-      "created_at": "05/04/2019"
+      "published_at": "05/04/2019"
     },
     {
       "id": "hayerd",
@@ -209,7 +209,7 @@
       "rooms": 3.5,
       "floor": 2,
       "size": 100,
-      "created_at": "03/04/2019"
+      "published_at": "03/04/2019"
     },
     {
       "id": "ptgxtr",
@@ -219,7 +219,7 @@
       "rooms": 3,
       "floor": 2,
       "size": 70,
-      "created_at": "03/04/2019"
+      "published_at": "03/04/2019"
     },
     {
       "id": "0wci9x",
@@ -229,7 +229,7 @@
       "rooms": 3,
       "floor": 3,
       "size": 60,
-      "created_at": "17/04/2019"
+      "published_at": "17/04/2019"
     },
     {
       "id": "mp2hbn",
@@ -239,137 +239,7 @@
       "rooms": 4,
       "floor": 1,
       "size": 90,
-      "created_at": "17/04/2019"
-    },
-    {
-      "id": "023y6k",
-      "title": "שדרות ירושלים",
-      "subtitle": "עליות, רמת גן",
-      "price": 4400,
-      "rooms": 3,
-      "floor": 2,
-      "size": 85,
-      "created_at": "17/04/2019"
-    },
-    {
-      "id": "znqake",
-      "title": "המכבי",
-      "subtitle": "שכונת חשמונאים, מרכז העיר א, רמת גן",
-      "price": 4500,
-      "rooms": 3,
-      "floor": 0,
-      "size": 85,
-      "created_at": "17/04/2019"
-    },
-    {
-      "id": "qdzrog",
-      "title": "הירדן 90",
-      "subtitle": "אזור הבילויים, רמת גן",
-      "price": 4900,
-      "rooms": 4,
-      "floor": 2,
-      "size": 90,
-      "created_at": "17/04/2019"
-    },
-    {
-      "id": "fx92bw",
-      "title": "שדרות הילד",
-      "subtitle": "שכונת בן גוריון, מרכז העיר ג', רמת גן",
-      "price": 4300,
-      "rooms": 3,
-      "floor": 2,
-      "size": 82,
-      "created_at": "17/04/2019"
-    },
-    {
-      "id": "0khvic",
-      "title": "אגמון 1",
-      "subtitle": "רמת אפעל, רמת גן",
-      "price": 4900,
-      "rooms": 3.5,
-      "floor": 3,
-      "size": 80,
-      "created_at": "17/04/2019"
-    },
-    {
-      "id": "v7hg83",
-      "title": "הראה 264",
-      "subtitle": "אזור הבילויים, רמת גן",
-      "price": 5000,
-      "rooms": 5,
-      "floor": 2,
-      "size": 100,
-      "created_at": "17/04/2019"
-    },
-    {
-      "id": "624x73",
-      "title": "מירקין 2",
-      "subtitle": "שכונת יהלום, מרכז העיר ב, רמת גן",
-      "price": 4800,
-      "rooms": 4,
-      "floor": 4,
-      "size": 110,
-      "created_at": "17/04/2019"
-    },
-    {
-      "id": "u4ebz3",
-      "title": "יונה",
-      "subtitle": "עליות, רמת גן",
-      "price": 4500,
-      "rooms": 4,
-      "floor": 2,
-      "size": 100,
-      "created_at": "17/04/2019"
-    },
-    {
-      "id": "6zubk8",
-      "title": "המבדיל",
-      "subtitle": "שכונת גפן, רמת גן",
-      "price": 4000,
-      "rooms": 3.5,
-      "floor": 2,
-      "size": 75,
-      "created_at": "17/04/2019"
-    },
-    {
-      "id": "0nxon5",
-      "title": "השר משה",
-      "subtitle": "נגבה, רמת גן",
-      "price": 5000,
-      "rooms": 4,
-      "floor": 1,
-      "size": 100,
-      "created_at": "17/04/2019"
-    },
-    {
-      "id": "5k62mf",
-      "title": "ידע עם",
-      "subtitle": "חרוזים, רמת גן",
-      "price": 5000,
-      "rooms": 3,
-      "floor": 1,
-      "size": 75,
-      "created_at": "17/04/2019"
-    },
-    {
-      "id": "v1xa2l",
-      "title": "יהושפט",
-      "subtitle": "רמת השקמה, רמת גן",
-      "price": 3400,
-      "rooms": 3,
-      "floor": 2,
-      "size": 40,
-      "created_at": "17/04/2019"
-    },
-    {
-      "id": "9trd7p",
-      "title": "חורגין",
-      "subtitle": "תל יהודה, רמת גן",
-      "price": 4900,
-      "rooms": 3,
-      "floor": 1,
-      "size": 65,
-      "created_at": "17/04/2019"
+      "published_at": "17/04/2019"
     },
     {
       "id": "31gtmr",
@@ -379,17 +249,7 @@
       "rooms": 4,
       "floor": 3,
       "size": 90,
-      "created_at": "17/04/2019"
-    },
-    {
-      "id": "pjsork",
-      "title": "הירדן 34",
-      "subtitle": "נגבה, רמת גן",
-      "price": 4500,
-      "rooms": 4,
-      "floor": 5,
-      "size": 90,
-      "created_at": "17/04/2019"
+      "published_at": "17/04/2019"
     },
     {
       "id": "2byufq",
@@ -399,7 +259,7 @@
       "rooms": 3,
       "floor": 2,
       "size": 80,
-      "created_at": "17/04/2019"
+      "published_at": "17/04/2019"
     },
     {
       "id": "91mi7i",
@@ -409,17 +269,157 @@
       "rooms": 3,
       "floor": 2,
       "size": 80,
-      "created_at": "17/04/2019"
+      "published_at": "17/04/2019"
     },
     {
-      "id": "m5i9xk",
-      "title": "הבילויים",
-      "subtitle": "אזור הבילויים, רמת גן",
-      "price": 4600,
-      "rooms": 3,
+      "id": "pjsork",
+      "title": "הירדן 34",
+      "subtitle": "נגבה, רמת גן",
+      "price": 4500,
+      "rooms": 4,
+      "floor": 5,
+      "size": 90,
+      "published_at": "17/04/2019"
+    },
+    {
+      "id": "6xfacv",
+      "title": "זוהר",
+      "subtitle": "שכונת בן גוריון, מרכז העיר ג', רמת גן",
+      "price": 4200,
+      "rooms": 3.5,
       "floor": 3,
+      "size": 70,
+      "published_at": "17/04/2019"
+    },
+    {
+      "id": "023y6k",
+      "title": "שדרות ירושלים",
+      "subtitle": "עליות, רמת גן",
+      "price": 4400,
+      "rooms": 3,
+      "floor": 2,
       "size": 85,
-      "created_at": "17/04/2019"
+      "published_at": "17/04/2019"
+    },
+    {
+      "id": "znqake",
+      "title": "המכבי",
+      "subtitle": "שכונת חשמונאים, מרכז העיר א, רמת גן",
+      "price": 4500,
+      "rooms": 3,
+      "floor": 0,
+      "size": 85,
+      "published_at": "17/04/2019"
+    },
+    {
+      "id": "qdzrog",
+      "title": "הירדן 90",
+      "subtitle": "אזור הבילויים, רמת גן",
+      "price": 4900,
+      "rooms": 4,
+      "floor": 2,
+      "size": 90,
+      "published_at": "17/04/2019"
+    },
+    {
+      "id": "fx92bw",
+      "title": "שדרות הילד",
+      "subtitle": "שכונת בן גוריון, מרכז העיר ג', רמת גן",
+      "price": 4300,
+      "rooms": 3,
+      "floor": 2,
+      "size": 82,
+      "published_at": "17/04/2019"
+    },
+    {
+      "id": "0khvic",
+      "title": "אגמון 1",
+      "subtitle": "רמת אפעל, רמת גן",
+      "price": 4900,
+      "rooms": 3.5,
+      "floor": 3,
+      "size": 80,
+      "published_at": "17/04/2019"
+    },
+    {
+      "id": "v7hg83",
+      "title": "הראה 264",
+      "subtitle": "אזור הבילויים, רמת גן",
+      "price": 5000,
+      "rooms": 5,
+      "floor": 2,
+      "size": 100,
+      "published_at": "17/04/2019"
+    },
+    {
+      "id": "624x73",
+      "title": "מירקין 2",
+      "subtitle": "שכונת יהלום, מרכז העיר ב, רמת גן",
+      "price": 4800,
+      "rooms": 4,
+      "floor": 4,
+      "size": 110,
+      "published_at": "17/04/2019"
+    },
+    {
+      "id": "u4ebz3",
+      "title": "יונה",
+      "subtitle": "עליות, רמת גן",
+      "price": 4500,
+      "rooms": 4,
+      "floor": 2,
+      "size": 100,
+      "published_at": "17/04/2019"
+    },
+    {
+      "id": "6zubk8",
+      "title": "המבדיל",
+      "subtitle": "שכונת גפן, רמת גן",
+      "price": 4000,
+      "rooms": 3.5,
+      "floor": 2,
+      "size": 75,
+      "published_at": "17/04/2019"
+    },
+    {
+      "id": "0nxon5",
+      "title": "השר משה",
+      "subtitle": "נגבה, רמת גן",
+      "price": 5000,
+      "rooms": 4,
+      "floor": 1,
+      "size": 100,
+      "published_at": "17/04/2019"
+    },
+    {
+      "id": "5k62mf",
+      "title": "ידע עם",
+      "subtitle": "חרוזים, רמת גן",
+      "price": 5000,
+      "rooms": 3,
+      "floor": 1,
+      "size": 75,
+      "published_at": "17/04/2019"
+    },
+    {
+      "id": "v1xa2l",
+      "title": "יהושפט",
+      "subtitle": "רמת השקמה, רמת גן",
+      "price": 3400,
+      "rooms": 3,
+      "floor": 2,
+      "size": 40,
+      "published_at": "17/04/2019"
+    },
+    {
+      "id": "9trd7p",
+      "title": "חורגין",
+      "subtitle": "תל יהודה, רמת גן",
+      "price": 4900,
+      "rooms": 3,
+      "floor": 1,
+      "size": 65,
+      "published_at": "17/04/2019"
     }
   ]
 }
