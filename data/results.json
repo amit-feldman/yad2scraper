@@ -2,16 +2,6 @@
   "listings_total": 42,
   "listings": [
     {
-      "id": "0nxon5",
-      "title": "השר משה",
-      "subtitle": "נגבה, רמת גן",
-      "price": 5000,
-      "rooms": 4,
-      "floor": 1,
-      "size": 100,
-      "published_at": "17/04/2019"
-    },
-    {
       "id": "qdzrog",
       "title": "הירדן 90",
       "subtitle": "אזור הבילויים, רמת גן",
@@ -19,6 +9,16 @@
       "rooms": 4,
       "floor": 2,
       "size": 90,
+      "published_at": "17/04/2019"
+    },
+    {
+      "id": "0nxon5",
+      "title": "השר משה",
+      "subtitle": "נגבה, רמת גן",
+      "price": 5000,
+      "rooms": 4,
+      "floor": 1,
+      "size": 100,
       "published_at": "17/04/2019"
     },
     {

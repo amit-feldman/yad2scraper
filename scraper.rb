@@ -15,7 +15,7 @@ class Yad2Scraper
 
     def price_format(num)
         i = num.gsub(" ₪", "")
-        (i.gsub(",", "")).to_i
+        i.gsub(",", "").to_i
     end
 
     def subtitle_format(str)
