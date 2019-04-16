@@ -1,0 +1,380 @@
+[
+  {
+    "id": "qdzrog",
+    "title": "הירדן 90",
+    "subtitle": "אזור הבילויים, רמת גן",
+    "price": 4900,
+    "rooms": 4,
+    "floor": 2,
+    "size": 90
+  },
+  {
+    "id": "0nxon5",
+    "title": "השר משה",
+    "subtitle": "נגבה, רמת גן",
+    "price": 5000,
+    "rooms": 4,
+    "floor": 1,
+    "size": 100
+  },
+  {
+    "id": "zpwltb",
+    "title": "שלם 16",
+    "subtitle": "רמת השקמה, רמת גן",
+    "price": 3600,
+    "rooms": 3,
+    "floor": 3,
+    "size": 65
+  },
+  {
+    "id": "xp63yv",
+    "title": "ההגנה 28",
+    "subtitle": "רמת עמידר, רמת גן",
+    "price": 4000,
+    "rooms": 3,
+    "floor": 0,
+    "size": 53
+  },
+  {
+    "id": "esuju9",
+    "title": "דרך בן גוריון 181",
+    "subtitle": "יד לבנים, רמת גן",
+    "price": 4700,
+    "rooms": 3.5,
+    "floor": 4,
+    "size": 85
+  },
+  {
+    "id": "36r5vk",
+    "title": "יהושפט 4",
+    "subtitle": "רמת השקמה, רמת גן",
+    "price": 4500,
+    "rooms": 3,
+    "floor": 2,
+    "size": 55
+  },
+  {
+    "id": "staj41",
+    "title": "הרב לנדרס 16",
+    "subtitle": "רמת עמידר, רמת גן",
+    "price": 4650,
+    "rooms": 4,
+    "floor": 7,
+    "size": 130
+  },
+  {
+    "id": "zko5xe",
+    "title": "אריה בן אליעזר 31",
+    "subtitle": "רמת עמידר, רמת גן",
+    "price": 5000,
+    "rooms": 4,
+    "floor": 3,
+    "size": 97
+  },
+  {
+    "id": "3c0do7",
+    "title": "אמנון ותמר 5",
+    "subtitle": "מרום נוה, רמת יצחק, רמת גן",
+    "price": 4500,
+    "rooms": 3.5,
+    "floor": 3,
+    "size": 110
+  },
+  {
+    "id": "24ehqb",
+    "title": "הירדן 48",
+    "subtitle": "נגבה, רמת גן",
+    "price": 4500,
+    "rooms": 4,
+    "floor": 1,
+    "size": 90
+  },
+  {
+    "id": "hhex2o",
+    "title": "אמנון ותמר 33",
+    "subtitle": "מרום נוה, רמת יצחק, רמת גן",
+    "price": 4600,
+    "rooms": 3,
+    "floor": 2,
+    "size": 80
+  },
+  {
+    "id": "2wg94k",
+    "title": "הירדן 55",
+    "subtitle": "שיכון מזרחי, רמת גן",
+    "price": 4500,
+    "rooms": 3,
+    "floor": 3,
+    "size": 60
+  },
+  {
+    "id": "uc7me9",
+    "title": "משה דיין 24",
+    "subtitle": "אזור הבילויים, רמת גן",
+    "price": 3000,
+    "rooms": 3,
+    "floor": 0,
+    "size": 70
+  },
+  {
+    "id": "q5aa20",
+    "title": "הרצל 72",
+    "subtitle": "שכונת בן גוריון, מרכז העיר ג', רמת גן",
+    "price": 5000,
+    "rooms": 4,
+    "floor": 3,
+    "size": 120
+  },
+  {
+    "id": "9naafm",
+    "title": "הררי 3",
+    "subtitle": "נוה יהושע, ערמונים, רמת גן",
+    "price": 4200,
+    "rooms": 3,
+    "floor": 4,
+    "size": 90
+  },
+  {
+    "id": "9jjmne",
+    "title": "דרך אבא הלל 130",
+    "subtitle": "נחלת גנים, רמת גן",
+    "price": 4000,
+    "rooms": 3,
+    "floor": 2,
+    "size": 70
+  },
+  {
+    "id": "lyg5lw",
+    "title": "שרה אהרונסון 00",
+    "subtitle": "אזור הבילויים, רמת גן",
+    "price": 4500,
+    "rooms": 3,
+    "floor": 1,
+    "size": 70
+  },
+  {
+    "id": "haz50h",
+    "title": "שדרות הרב לוין 15",
+    "subtitle": "רמת עמידר, רמת גן",
+    "price": 4300,
+    "rooms": 3,
+    "floor": 3,
+    "size": 60
+  },
+  {
+    "id": "nncap6",
+    "title": "דרך בן גוריון 181",
+    "subtitle": "יד לבנים, רמת גן",
+    "price": 5000,
+    "rooms": 3.5,
+    "floor": 1,
+    "size": 90
+  },
+  {
+    "id": "ck7dn1",
+    "title": "עוזיאל 79",
+    "subtitle": "תל יהודה, רמת גן",
+    "price": 4500,
+    "rooms": 4,
+    "floor": 2,
+    "size": 100
+  },
+  {
+    "id": "hayerd",
+    "title": "אמנון ותמר 32",
+    "subtitle": "מרום נוה, רמת יצחק, רמת גן",
+    "price": 5000,
+    "rooms": 3.5,
+    "floor": 2,
+    "size": 100
+  },
+  {
+    "id": "ptgxtr",
+    "title": "הירדן 96",
+    "subtitle": "אזור הבילויים, רמת גן",
+    "price": 4200,
+    "rooms": 3,
+    "floor": 2,
+    "size": 70
+  },
+  {
+    "id": "0khvic",
+    "title": "אגמון 1",
+    "subtitle": "רמת אפעל, רמת גן",
+    "price": 4900,
+    "rooms": 3.5,
+    "floor": 3,
+    "size": 80
+  },
+  {
+    "id": "v7hg83",
+    "title": "הרא\"ה 264",
+    "subtitle": "אזור הבילויים, רמת גן",
+    "price": 5000,
+    "rooms": 5,
+    "floor": 2,
+    "size": 100
+  },
+  {
+    "id": "624x73",
+    "title": "מירקין 2",
+    "subtitle": "שכונת יהלום, מרכז העיר ב, רמת גן",
+    "price": 4800,
+    "rooms": 4,
+    "floor": 4,
+    "size": 110
+  },
+  {
+    "id": "0wci9x",
+    "title": "הרא\"ה 260",
+    "subtitle": "אזור הבילויים, רמת גן",
+    "price": 3500,
+    "rooms": 3,
+    "floor": 3,
+    "size": 60
+  },
+  {
+    "id": "u4ebz3",
+    "title": "יונה",
+    "subtitle": "עליות, רמת גן",
+    "price": 4500,
+    "rooms": 4,
+    "floor": 2,
+    "size": 100
+  },
+  {
+    "id": "mp2hbn",
+    "title": "דרך זאב ז'בוטינסקי 18",
+    "subtitle": "שכונת הראשונים, רמת גן",
+    "price": 4500,
+    "rooms": 4,
+    "floor": 1,
+    "size": 90
+  },
+  {
+    "id": "znqake",
+    "title": "המכבי",
+    "subtitle": "שכונת חשמונאים, מרכז העיר א, רמת גן",
+    "price": 4500,
+    "rooms": 3,
+    "floor": 0,
+    "size": 85
+  },
+  {
+    "id": "31gtmr",
+    "title": "אריה בן אליעזר",
+    "subtitle": "שיכון מזרחי, רמת גן",
+    "price": 4900,
+    "rooms": 4,
+    "floor": 3,
+    "size": 90
+  },
+  {
+    "id": "pjsork",
+    "title": "הירדן 34",
+    "subtitle": "נגבה, רמת גן",
+    "price": 4500,
+    "rooms": 4,
+    "floor": 5,
+    "size": 90
+  },
+  {
+    "id": "6zubk8",
+    "title": "המבדיל",
+    "subtitle": "שכונת גפן, רמת גן",
+    "price": 4000,
+    "rooms": 3.5,
+    "floor": 2,
+    "size": 75
+  },
+  {
+    "id": "2byufq",
+    "title": "שכונת חשמונאים, מרכז העיר א",
+    "subtitle": "רמת גן",
+    "price": 4800,
+    "rooms": 3,
+    "floor": 2,
+    "size": 80
+  },
+  {
+    "id": "5k62mf",
+    "title": "ידע עם",
+    "subtitle": "חרוזים, רמת גן",
+    "price": 5000,
+    "rooms": 3,
+    "floor": 1,
+    "size": 75
+  },
+  {
+    "id": "91mi7i",
+    "title": "ביאליק",
+    "subtitle": "שכונת יהלום, מרכז העיר ב, רמת גן",
+    "price": 4800,
+    "rooms": 3,
+    "floor": 2,
+    "size": 80
+  },
+  {
+    "id": "0nxon5",
+    "title": "השר משה",
+    "subtitle": "נגבה, רמת גן",
+    "price": 5000,
+    "rooms": 4,
+    "floor": 1,
+    "size": 100
+  },
+  {
+    "id": "qdzrog",
+    "title": "הירדן 90",
+    "subtitle": "אזור הבילויים, רמת גן",
+    "price": 4900,
+    "rooms": 4,
+    "floor": 2,
+    "size": 90
+  },
+  {
+    "id": "m5i9xk",
+    "title": "הביל\"ויים",
+    "subtitle": "אזור הבילויים, רמת גן",
+    "price": 4600,
+    "rooms": 3,
+    "floor": 3,
+    "size": 85
+  },
+  {
+    "id": "6xfacv",
+    "title": "זוהר",
+    "subtitle": "שכונת בן גוריון, מרכז העיר ג', רמת גן",
+    "price": 4200,
+    "rooms": 3.5,
+    "floor": 3,
+    "size": 70
+  },
+  {
+    "id": "023y6k",
+    "title": "שדרות ירושלים",
+    "subtitle": "עליות, רמת גן",
+    "price": 4400,
+    "rooms": 3,
+    "floor": 2,
+    "size": 85
+  },
+  {
+    "id": "fx92bw",
+    "title": "שדרות הילד",
+    "subtitle": "שכונת בן גוריון, מרכז העיר ג', רמת גן",
+    "price": 4300,
+    "rooms": 3,
+    "floor": 2,
+    "size": 82
+  },
+  {
+    "id": "v1xa2l",
+    "title": "יהושפט",
+    "subtitle": "רמת השקמה, רמת גן",
+    "price": 3400,
+    "rooms": 3,
+    "floor": 2,
+    "size": 40
+  }
+]
