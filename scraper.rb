@@ -51,8 +51,13 @@ class Yad2Scraper
             })
         end
 
+        listings_object = {
+            listings_total: listings_array.count,
+            listings: listings_array
+        }
+
         File.open("listings.json", "w") do |file|
-            file.write(JSON.pretty_generate(listings_array))
+            file.write(JSON.pretty_generate(listings_object))
         end
     end
 
