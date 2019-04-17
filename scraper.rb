@@ -70,7 +70,9 @@ class Yad2Scraper
                     published_at: date_format(published_at)
                 })
 
-                listings_array.sort_by { |hash| hash['published_at'].to_i }                
+                listings_array.sort_by do |hash|
+                    hash['published_at'].to_i
+                end
             end
         end
 
