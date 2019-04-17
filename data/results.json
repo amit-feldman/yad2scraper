@@ -1,5 +1,5 @@
 {
-  "listings_total": 20,
+  "total_listings": 20,
   "listings": [
     {
       "id": "zpwltb",
@@ -9,6 +9,16 @@
       "rooms": 3,
       "floor": 3,
       "size": 65,
+      "published_at": "18/04/2019"
+    },
+    {
+      "id": "36r5vk",
+      "address": "יהושפט 4",
+      "locality": "רמת השקמה, רמת גן",
+      "price": "4,500",
+      "rooms": 3,
+      "floor": 2,
+      "size": 55,
       "published_at": "17/04/2019"
     },
     {
@@ -49,16 +59,6 @@
       "rooms": 3.5,
       "floor": 4,
       "size": 85,
-      "published_at": "16/04/2019"
-    },
-    {
-      "id": "36r5vk",
-      "address": "יהושפט 4",
-      "locality": "רמת השקמה, רמת גן",
-      "price": "4,500",
-      "rooms": 3,
-      "floor": 2,
-      "size": 55,
       "published_at": "16/04/2019"
     },
     {

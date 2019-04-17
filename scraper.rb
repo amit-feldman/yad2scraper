@@ -4,13 +4,22 @@ require "json"
 
 class Yad2Scraper
     def initialize
-        @user_agent = "Mozilla/5.0"\
-                      "(X11; Linux x86_64)"\
-                      "AppleWebKit/537.36"\
-                      "(KHTML, like Gecko)"\
-                      "Chrome/73.0.3683.103 Safari/537.36"
-        @url = "https://www.yad2.co.il/realestate/rent/apartment-in-ramat-gan?city=8600&property=1&rooms=3--1&price=3000-5000&forPartners=1&Immediate=1&page=1"
-        @date_today = Time.now.strftime('%d/%m/%Y')
+        @user_agent = "Mozilla/5.0" \
+                      "(X11; Linux x86_64)" \
+                      "AppleWebKit/537.36" \
+                      "(KHTML, like Gecko)" \
+					  "Chrome/73.0.3683.103" \
+					  "Safari/537.36"
+
+		@url = "https://www.yad2.co.il" \
+			   "/realestate/rent/" \
+			   "apartment-in-ramat-gan" \
+			   "?city=8600" \
+			   "&property=1" \
+			   "&rooms=3--1" \
+			   "&price=3000-5000" \
+			   "&forPartners=1" \
+			   "&Immediate=1"
     end
 
     def rooms_format(num)
@@ -35,18 +44,21 @@ class Yad2Scraper
 
     def date_format(str)
         if str.include?("עודכן היום")
-            @date_today
+            Time.now.strftime('%d/%m/%Y')
         elsif str.include?("עודכן ב")
             i = str.gsub("עודכן ב", "")
             i.lstrip
         end
     end
 
-    def scraper
+	def scraper
+		start = Time.now
+
         page = HTTParty.get(@url, {
             headers: { "User-Agent": @user_agent }
         })
-        parse_page = Nokogiri::HTML(page)
+
+		parse_page = Nokogiri::HTML(page)
 
         listings_array = []
 
@@ -79,13 +91,17 @@ class Yad2Scraper
         end
 
         listings_object = {
-            listings_total: listings_array.count,
+            total_listings: listings_array.count,
             listings: listings_array
         }
 
-        File.open("./data/results.json", "w") do |file|
+        File.open("./data/results.json", "w+") do |file|
             file.write(JSON.pretty_generate(listings_object))
-        end
+		end
+		
+		finish = Time.now
+
+		puts "Successfully scraped #{listings_array.count} listings in #{finish - start} seconds!"
     end
 
     def start
