@@ -4,8 +4,9 @@ require "json"
 
 class Yad2Scraper
     def initialize
-        @user_agent ||= "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-        @url ||= "https://www.yad2.co.il/realestate/rent/apartment-in-ramat-gan?city=8600&property=1&rooms=3--1&price=3000-5000&forPartners=1&Immediate=1"
+        @user_agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+        @url = "https://www.yad2.co.il/realestate/rent/apartment-in-ramat-gan?city=8600&property=1&rooms=3--1&price=3000-5000&forPartners=1&Immediate=1&page=1"
+        @date_today = Time.now.strftime('%d/%m/%Y')
     end
 
     def rooms_format(num)
@@ -28,14 +29,14 @@ class Yad2Scraper
     end
 
     def date_format(str)
-        if str.include?("עודכן היום")
+        if str.include?("היום")
             i = str.gsub("עודכן היום", "")
             i.lstrip
-        elsif str.include?("עודכן ב")
+        elsif str.include?("עודכן")
             i = str.gsub("עודכן ב", "")
             i.lstrip
         else
-            Time.now.strftime('%d/%m/%Y')
+            @date_today
         end
     end
 
@@ -47,28 +48,30 @@ class Yad2Scraper
 
         listings_array = []
 
-        parse_page.css('div.feed_item-v4.accordion.showPU.desktop').each do |item|
-            id = item['itemid']
-            title = item.css('span.title').text.strip
-            subtitle = item.css('span.subtitle').text.strip
+        parse_page.css('.feed_list > .feeditem').each do |item|
+            id = item.at_css('.feed_item-v4')['itemid']
+            address = item.css('span.title').text.strip
+            locality = item.css('span.subtitle').text.strip
             price = item.css('div.price').text.strip
             rooms = item.css('span.val')[0].text.strip
             floor = item.css('span.val')[1].text.strip
             size = item.css('span.val')[2].text.strip
             published_at = item.css('span.date').text.strip
 
-            listings_array.push({
-                id: id,
-                title: title_format(title),
-                subtitle: subtitle_format(subtitle),
-                price: price_format(price),
-                rooms: rooms_format(rooms),
-                floor: floor.to_i,
-                size: size.to_i,
-                published_at: date_format(published_at)
-            })
+            if !item.at_css('.agency')
+                listings_array.push({
+                    id: id,
+                    address: title_format(address),
+                    locality: subtitle_format(locality),
+                    price: price_format(price),
+                    rooms: rooms_format(rooms),
+                    floor: floor.to_i,
+                    size: size.to_i,
+                    published_at: date_format(published_at)
+                })
 
-            listings_array.sort_by { |hash| hash['published_at'].to_i }
+                listings_array.sort_by { |hash| hash['published_at'].to_i }                
+            end
         end
 
         listings_object = {
