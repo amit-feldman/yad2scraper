@@ -4,7 +4,11 @@ require "json"
 
 class Yad2Scraper
     def initialize
-        @user_agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+        @user_agent = "Mozilla/5.0"\
+                      "(X11; Linux x86_64)"\
+                      "AppleWebKit/537.36"\
+                      "(KHTML, like Gecko)"\
+                      "Chrome/73.0.3683.103 Safari/537.36"
         @url = "https://www.yad2.co.il/realestate/rent/apartment-in-ramat-gan?city=8600&property=1&rooms=3--1&price=3000-5000&forPartners=1&Immediate=1&page=1"
         @date_today = Time.now.strftime('%d/%m/%Y')
     end
@@ -15,8 +19,9 @@ class Yad2Scraper
     end
 
     def price_format(num)
-        i = num.gsub(" ₪", "")
+        i = num.gsub("₪", "")
         i.gsub(",", "").to_i
+        i.rstrip
     end
 
     def subtitle_format(str)
