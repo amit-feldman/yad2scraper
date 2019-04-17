@@ -34,14 +34,11 @@ class Yad2Scraper
     end
 
     def date_format(str)
-        if str.include?("היום")
-            i = str.gsub("עודכן היום", "")
-            i.lstrip
-        elsif str.include?("עודכן")
+        if str.include?("עודכן היום")
+            @date_today
+        elsif str.include?("עודכן ב")
             i = str.gsub("עודכן ב", "")
             i.lstrip
-        else
-            @date_today
         end
     end
 
