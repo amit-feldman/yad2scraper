@@ -12,14 +12,13 @@ class Yad2Scraper
 			"Safari/537.36"
 
 		@url = "https://www.yad2.co.il" \
-			"/realestate/rent/" \
-			"apartment-in-ramat-gan" \
-			"?city=8600" \
+			"/realestate/rent?" \
+			"area=3" \
 			"&property=1" \
 			"&rooms=3--1" \
-			"&price=3000-5000" \
+			"&price=-1-5000" \
 			"&forPartners=1" \
-			"&Immediate=1"
+			"&EnterDate=25-5-2019"
 	end
 
 	def rooms_format(num)
